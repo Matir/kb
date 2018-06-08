@@ -60,3 +60,5 @@ defaults:
     values:
       layout: "kb"
       toc: true
+      sidebar:
+        nav: main

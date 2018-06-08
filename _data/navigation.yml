@@ -1,0 +1,11 @@
+main:
+  - title: Security
+    children:
+      - title: Recon
+        url: /security/recon
+      - title: Social Engineering
+      - title: Physical Security
+      - title: Exploitation
+        children:
+          - title: Exploit Development
+  - title: Electronics
