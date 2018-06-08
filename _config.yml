@@ -18,6 +18,8 @@ email: david@localhost
 description: Matir's knowledge base.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:year/:month/:day/:slug/
+
 twitter_username: matir
 github_username:  matir
 repository: matir/kb
