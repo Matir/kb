@@ -44,3 +44,19 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+
+# Collections
+collections:
+  kb:
+    output: true
+    permalink: /:path/
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "kb"
+    values:
+      layout: "kb"
+      toc: true
