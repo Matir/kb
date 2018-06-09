@@ -36,6 +36,11 @@ kramdown:
 
 plugins:
 
+footer_scripts:
+  - /assets/js/main.min.js
+  - https://use.fontawesome.com/releases/v5.0.13/js/all.js
+  - /assets/js/codebtn.js
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
