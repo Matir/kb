@@ -9,3 +9,8 @@ main:
         children:
           - title: Exploit Development
   - title: Electronics
+  - title: Miscellaneous
+    children:
+      - title: Writing & Blogging
+      - title: Presentations & Talks
+        url: /misc/talks
