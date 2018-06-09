@@ -16,7 +16,11 @@ title: Matir's Knowledge Base
             {% assign nav_url = nav.url | relative_url %}
           {% endif %}
 
-          <a href="{{ nav_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          <a
+            {% if nav_url %}
+            href="{{ nav_url }}"
+            {% endif %}
+            ><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
@@ -38,7 +42,11 @@ title: Matir's Knowledge Base
               {% assign active = "" %}
             {% endif %}
 
-            <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }}</a></li>
+            <li><a
+              {% if child_url %}
+              href="{{ child_url }}"
+              {% endif %}
+              class="{{ active }}">{{ child.title }}</a></li>
                 {% if child.children != null %}
                 <ul>
                 {% for subchild in child.children %}
@@ -56,7 +64,11 @@ title: Matir's Knowledge Base
                     {% assign active = "" %}
                     {% endif %}
 
-                    <li><a href="{{ child_url }}" class="{{ active }}">{{ subchild.title }}</a></li>
+                    <li><a
+                    {% if child_url %}
+                    href="{{ child_url }}"
+                    {% endif %}
+                    class="{{ active }}">{{ subchild.title }}</a></li>
                 {% endfor %}
                 </ul>
                 {% endif %}

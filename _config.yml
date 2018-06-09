@@ -31,6 +31,9 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 search: true
 
+kramdown:
+  input: GFM
+
 plugins:
 
 # Exclude from processing.

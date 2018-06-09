@@ -5,12 +5,33 @@ main:
         url: /security/recon
       - title: Social Engineering
       - title: Physical Security
+        children:
+          - title: Lockpicking
+          - title: Bypass
+          - title: Access Control Cards
       - title: Exploitation
         children:
           - title: Exploit Development
+      - title: Post-Exploitation
+        children:
+          - title: C2 Infrastructure
+          - title: Windows
+          - title: Linux
+          - title: Mac OS
+          - title: Cloud
+  - title: Computing
+    children:
+      - title: Custom Setups
+        url: /computers/setup
+      - title: Linux Shell
+      - title: Windows Shell
+      - title: Networking
   - title: Electronics
+    children:
+      - title: Tools
+      - title: JTAG
   - title: Miscellaneous
     children:
       - title: Writing & Blogging
-      - title: Presentations & Talks
+      - title: (Giving) Presentations & Talks
         url: /misc/talks
