@@ -28,6 +28,7 @@ main:
             url: /computers/setup/chrome
           - title: Firefox
       - title: Linux Shell
+        url: /computers/linux-shell
       - title: Windows Shell
       - title: Networking
         url: /computers/networking
