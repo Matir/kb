@@ -26,6 +26,7 @@ main:
       - title: Linux Shell
       - title: Windows Shell
       - title: Networking
+        url: /computers/networking
   - title: Electronics
     url: /electronics
     children:
