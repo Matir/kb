@@ -27,9 +27,12 @@ main:
       - title: Windows Shell
       - title: Networking
   - title: Electronics
+    url: /electronics
     children:
       - title: Tools
       - title: JTAG
+      - title: PCB Fabrication
+        url: /electronics/pcbfabs
   - title: Miscellaneous
     children:
       - title: Writing & Blogging
