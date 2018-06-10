@@ -12,3 +12,11 @@ title: Chrome Setup
 
 * [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
 * [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+
+## Run Chrome for Burp ##
+
+~~~
+/usr/bin/google-chrome-beta --ignore-certificate-errors \
+    --user-data-dir=${HOME}/.config/chrome-pentest \
+    --proxy-server=127.0.0.1:8080
+~~~
