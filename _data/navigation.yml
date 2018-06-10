@@ -23,6 +23,10 @@ main:
     children:
       - title: Custom Setups
         url: /computers/setup
+        children:
+          - title: Chrome
+            url: /computers/setup/chrome
+          - title: Firefox
       - title: Linux Shell
       - title: Windows Shell
       - title: Networking
