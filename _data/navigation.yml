@@ -29,6 +29,9 @@ main:
           - title: Firefox
       - title: Linux Shell
         url: /computers/linux-shell
+        children:
+          - title: tmux
+            url: /computers/tmux
       - title: Windows Shell
       - title: Networking
         url: /computers/networking
