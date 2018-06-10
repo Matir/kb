@@ -18,7 +18,7 @@ title: Recon
 
 ### Port & Service Discovery ###
 
-* nmap
+* [nmap](/security/recon/nmap)
 
 ## Web Recon ##
 
