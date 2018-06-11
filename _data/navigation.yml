@@ -19,6 +19,8 @@ main:
           - title: Linux
           - title: Mac OS
           - title: Cloud
+          - title: Reverse Shells
+            url: /security/postex/reverse
   - title: Computing
     children:
       - title: Custom Setups
