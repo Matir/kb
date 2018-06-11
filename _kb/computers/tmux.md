@@ -58,3 +58,21 @@ tmux -S /tmp/shared-session attach -t <session_name>
 
 The second session can be readonly by providing the `-r` flag when attaching to
 the session.
+
+## Session Groups ##
+
+tmux can have multiple sessions pointing to the same session group.  Normally
+when you attach to an existing session, you get the same view in the exact same
+place.  Multiple sessions to a session group gives you different views of the
+same windows, so you can put them next to each other or use the various windows
+from multiple terminal emulators.
+
+Start a session, then attach a new session to the group:
+
+```
+tmux new-session -s <session_name>
+tmux new-session -t <session_name>
+```
+
+Note that this is similar to attaching an existing session, but the
+`new-session` command is used with the target of the existing session.

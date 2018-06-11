@@ -35,6 +35,8 @@ main:
       - title: Windows Shell
       - title: Networking
         url: /computers/networking
+      - title: Vim
+        url: /computers/vim
   - title: Electronics
     url: /electronics
     children:

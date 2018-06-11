@@ -46,3 +46,12 @@ bind-key H pipe-pane -o "exec cat >>$HOME/'#W-tmux.log'" \; display-message 'Tog
 ```
 
 Other replacements can be seen in `tmux(1)` or [tmux notes](/computers/tmux).
+
+### GNU Screen ###
+
+`screen` can easily log.  From within a screen session, press the command
+character (default `^A`) and then:
+
+```
+:log <name of log>
+```
