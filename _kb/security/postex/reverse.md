@@ -149,7 +149,7 @@ expect /tmp/e.exp
 
 Before connection:
 
-```
+``` bash
 echo 'After connection, please run: '
 echo python -c 'import pty; pty.spawn("/bin/bash")'
 echo export SHELL=bash
