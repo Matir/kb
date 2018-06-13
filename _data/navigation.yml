@@ -21,9 +21,11 @@ main:
           - title: WAHH Checklist
             url: /security/web/wahh
       - title: Post-Exploitation
+        url: /security/postex
         children:
           - title: C2 Infrastructure
           - title: Windows
+            url: /security/postex/windows
           - title: Linux
           - title: Mac OS
           - title: Cloud
