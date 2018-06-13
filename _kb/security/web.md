@@ -17,3 +17,9 @@ See also [Recon](/security/recon).
 
 - [WAHH Checklist](/security/web/wahh) - Testing Checklist from the Web
   Application Hacker's Handbook
+
+### Tool Cheatsheets ###
+
+- Burp Suite
+- BeEF
+- SQLMap

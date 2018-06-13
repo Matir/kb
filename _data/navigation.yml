@@ -3,6 +3,9 @@ main:
     children:
       - title: Recon
         url: /security/recon
+        children:
+          - title: Git (Github)
+            url: /security/recon/git
       - title: Social Engineering
       - title: Physical Security
         children:
