@@ -12,6 +12,11 @@ main:
       - title: Exploitation
         children:
           - title: Exploit Development
+      - title: Web Security
+        url: /security/web
+        children:
+          - title: WAHH Checklist
+            url: /security/web/wahh
       - title: Post-Exploitation
         children:
           - title: C2 Infrastructure
