@@ -6,3 +6,17 @@ button.copy-btn {
   top: 0.25rem;
   right: 0.25rem;
 }
+
+/**
+ * Task lists in markdown
+ */
+ul.task-list {
+  -webkit-padding-start: 1.5em;
+  li.task-list-item {
+    list-style-type: none;
+    input[type="checkbox"] {
+      margin-right: 1rem;
+      margin-left: -0.5rem;
+    }
+  }
+}
