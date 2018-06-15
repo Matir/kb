@@ -1,6 +1,8 @@
 main:
   - title: Security
     children:
+      - title: Penetration Testing
+        url: /security/pentest
       - title: Recon
         url: /security/recon
         children:
