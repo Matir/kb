@@ -17,6 +17,9 @@ main:
       - title: Exploitation
         children:
           - title: Exploit Development
+            url: /security/exploit/exploitdev
+          - title: Shellcoding
+            url: /security/exploit/shellcoding
       - title: Web Security
         url: /security/web
         children:
