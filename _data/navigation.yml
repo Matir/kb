@@ -9,6 +9,7 @@ main:
           - title: Git (Github)
             url: /security/recon/git
       - title: Social Engineering
+        url: /security/social
       - title: Physical Security
         children:
           - title: Lockpicking
@@ -36,6 +37,8 @@ main:
           - title: Cloud
           - title: Reverse Shells
             url: /security/postex/reverse
+      - title: Tools
+        url: /security/tools
   - title: Computing
     children:
       - title: Custom Setups
