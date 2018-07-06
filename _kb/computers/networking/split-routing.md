@@ -79,6 +79,11 @@ ip route flush cache
 
 This clears any cached routes.
 
+### References ###
+
+* https://arstechnica.com/civis/viewtopic.php?f=16&t=1195455
+* http://linux-ip.net/html/routing-tables.html
+
 ## Just Sending Via Incoming Interface ##
 
 ```
