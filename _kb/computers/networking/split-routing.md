@@ -5,7 +5,9 @@ title: Split Routing
 To get traffic from one service to bypass the default routing tables, we can
 create a substitute routing table.
 
-## Create New Routing Table ##
+## Marking Connections ##
+
+### Create New Routing Table ###
 
 Create a new named routing table by creating a file like
 `/etc/iproute2/rt_tables.d/redirect.conf` with the contents:
@@ -17,7 +19,7 @@ Create a new named routing table by creating a file like
 The table number is arbitrary, but 253-255 and 0 are reserved.  The name is
 likewise arbitrary.
 
-## Create Routes in New Table ##
+### Create Routes in New Table ###
 
 If your routes you want to avoid haven't been created yet, this is easy:
 
@@ -37,7 +39,7 @@ ip route show table main | grep -v tun | grep -v tap | \
   done
 ```
 
-## Select Which Traffic Uses this Table ##
+### Select Which Traffic Uses this Table ###
 
 ```
 ip rule add fwmark 0x2 table redirect
@@ -45,7 +47,7 @@ ip rule add fwmark 0x2 table redirect
 
 Again, the value `0x2` is arbitrary, but `0x0` is reserved.
 
-## Mark the appropriate traffic ##
+### Mark the appropriate traffic ###
 
 As an example, this covers traffic coming from the SSH port (i.e., response
 traffic to an SSH connection).
@@ -69,10 +71,20 @@ originating from the local host.  `PREROUTING` rules are for the packets coming
 in from remote hosts.  (This initially sets up the connection tracking with the
 mark.)
 
-## Flush the Cache ##
+### Flush the Cache ###
 
 ```
 ip route flush cache
 ```
 
 This clears any cached routes.
+
+## Just Sending Via Incoming Interface ##
+
+```
+echo 200 isp2 >> /etc/iproute2/rt_tables
+ip rule add from <interface_IP> dev <interface> table isp2
+ip route add default via <gateway_IP> dev <interface> table isp2
+```
+
+From https://unix.stackexchange.com/questions/4420/reply-on-same-interface-as-incoming.
