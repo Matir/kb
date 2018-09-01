@@ -39,6 +39,8 @@ main:
             url: /security/postex/reverse
       - title: Tools
         url: /security/tools
+      - title: Red Teaming
+        url: /security/redteam
   - title: Computing
     children:
       - title: Custom Setups
