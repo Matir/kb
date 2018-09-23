@@ -6,6 +6,10 @@ A bunch of resources specifically on web testing & exploitation.
 
 See also [Recon](/security/recon).
 
+## Vulnerabilities ##
+
+- [XXE](/security/web/xxe)
+
 ## Testing ##
 
 ### Guides/Books ###
