@@ -1,5 +1,7 @@
 ---
 title: XXE
+tags:
+  - Cheatsheet
 ---
 
 ## Testing

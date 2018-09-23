@@ -1,5 +1,7 @@
 ---
 title: Computer Setup
+tags:
+  - Checklist
 ---
 
 ## Basic Setup ##

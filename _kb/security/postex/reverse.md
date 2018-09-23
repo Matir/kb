@@ -1,5 +1,7 @@
 ---
 title: Reverse Shells
+tags:
+  - Cheatsheet
 ---
 
 Examples generally use `$HOST` and `$PORT` for the target host and port for the

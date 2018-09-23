@@ -1,5 +1,7 @@
 ---
 title: Windows PostEx
+tags:
+  - Cheatsheet
 ---
 
 ## Windows Local PostEx ##
