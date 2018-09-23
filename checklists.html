@@ -1,0 +1,26 @@
+---
+layout: single
+title: Checklists
+---
+
+<ul>
+  {% assign cur = "" %}
+  {% assign kbpages = site.kb | sort: "title" %}
+  {% for kbpage in kbpages %}
+    {% if kbpage.tags contains "Checklist" %}
+      {% assign next_letter = kbpage.title | slice: 0, 1 | upcase %}
+      {% if cur != next_letter %}
+        {% if cur != "" %}
+          </ul>
+        {% endif %}
+        {% assign cur = next_letter %}
+        <li><b>{{cur}}</b></li>
+        <ul>
+      {% endif %}
+      <li><a href='{{kbpage.url}}'>{{kbpage.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+  {% if cur != "" %}
+  </ul>
+  {% endif %}
+</ul>
