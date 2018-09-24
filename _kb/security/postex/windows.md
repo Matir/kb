@@ -102,6 +102,41 @@ tags:
 `sc query`
 : Get a list of all services.
 
+### Stored Credentials ###
+
+Unattended installation creds:
+
+```
+C:\unattend.xml
+C:\Windows\Panther\Unattend.xml
+C:\Windows\Panther\Unattend\Unattend.xml
+C:\Windows\system32\sysprep.inf
+C:\Windows\system32\sysprep\sysprep.xml
+```
+
+These can be found with the metasploit module `post/windows/gather/enum_unattend`.
+
+Find passwords in files:
+
+```
+findstr /si password *.txt
+findstr /si password *.xml
+findstr /si password *.ini
+```
+
+Find files with pass in the name:
+
+```
+dir /b /s *pass*
+```
+
+Other credential types:
+
+- PuTTY: `reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"`
+- RealVNC: `reg query HKEY_LOCAL_MACHINE\SOFTWARE\RealVNC\WinVNC4 /v password`
+- Windows AutoLogin: `reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"`
+- SNMP: `reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"`
+
 ## Windows Domain PostEx ##
 
 ### Grab Hashes ###
@@ -120,5 +155,5 @@ tags:
 
 ## Resources ##
 
-* [Room362 Windows Postex
-  List](https://docs.google.com/document/d/1U10isynOpQtrIK6ChuReu-K1WHTJm4fgG3joiuz43rw/edit?hl=en_US)
+* [Room362 Windows Postex List](https://docs.google.com/document/d/1U10isynOpQtrIK6ChuReu-K1WHTJm4fgG3joiuz43rw/edit?hl=en_US)
+* [PentestLab Stored Credentials](https://pentestlab.blog/2017/04/19/stored-credentials/)
