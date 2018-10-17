@@ -38,6 +38,7 @@ values.
 - [SamuraiWTF Course](https://sourceforge.net/projects/samurai/files/SamuraiWTF%20Course/)
 - [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
 - [SANS CyberAces](http://www.cyberaces.org/courses/)
+- [Max Kersten Binary Analysis Course](https://maxkersten.nl/binary-analysis-course/)
 
 ## Paid
 
