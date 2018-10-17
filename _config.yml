@@ -27,7 +27,7 @@ name: "Matir"
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.13.0"
 minimal_mistakes_skin: "dark"
 search: true
 
@@ -35,6 +35,7 @@ kramdown:
   input: GFM
 
 plugins:
+  - jekyll-include-cache
 
 footer_scripts:
   - /assets/js/main.min.js
