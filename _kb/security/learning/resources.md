@@ -18,7 +18,8 @@ title: Security Learning Resources
 ### Resources (not books, but reading)
 
 - [Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main_Page)
-- [OWASP Testing Guide](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
+- [OWASP Web Testing Guide](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
+- [OWASP Mobile Testing Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
 - [Lockheed Martin Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/wiki/Main_Page)
 

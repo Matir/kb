@@ -41,6 +41,10 @@ main:
         url: /security/tools
       - title: Red Teaming
         url: /security/redteam
+      - title: Learning
+        children:
+          - title: Resources
+            url: /security/learning/resources
   - title: Computing
     children:
       - title: Custom Setups
