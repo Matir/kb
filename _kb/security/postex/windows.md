@@ -153,6 +153,26 @@ Other credential types:
   passwords, hash, PIN code and kerberos tickets from memory. mimikatz can also
   perform pass-the-hash, pass-the-ticket or build Golden tickets.
 
+### Using Hashes ###
+
+<!-- TODO: expand this -->
+
+* psexec
+* Pass the Hash
+* Kerberoasting
+* NTLM Relaying
+
+## Windows Postexploitation Tools ##
+
+<!-- TODO: expand this -->
+
+* Bloodhound
+* Powershell Empire
+* Pupy
+* Mimikatz
+* Responder
+* SETH
+
 ## Resources ##
 
 * [Room362 Windows Postex List](https://docs.google.com/document/d/1U10isynOpQtrIK6ChuReu-K1WHTJm4fgG3joiuz43rw/edit?hl=en_US)
