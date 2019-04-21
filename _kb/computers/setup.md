@@ -18,3 +18,7 @@ sh ${HOME}/.skel/install.sh
 
 * [Chrome](/computers/setup/chrome)
 * Firefox
+
+## Other OS ##
+
+* [ChromeOS](/computers/setup/chromeos)
