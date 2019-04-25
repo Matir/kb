@@ -76,3 +76,7 @@ tmux new-session -t <session_name>
 
 Note that this is similar to attaching an existing session, but the
 `new-session` command is used with the target of the existing session.
+
+## Logging ##
+
+See the [tmux-logging](https://github.com/tmux-plugins/tmux-logging) module.
