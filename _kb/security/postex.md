@@ -10,7 +10,7 @@ It's not what exploit you use, it's what you do with it.
 - Steal data
 - Move laterally
 - Make changes
-- Persistence
+- [Persistence](/security/postex/persistence)
 
 ## PostEx Docs ##
 
