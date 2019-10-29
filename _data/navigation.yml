@@ -26,6 +26,8 @@ main:
         children:
           - title: WAHH Checklist
             url: /security/web/wahh
+          - title: Cross-Site Scripting (XSS)
+            url: /security/xss
       - title: Post-Exploitation
         url: /security/postex
         children:
