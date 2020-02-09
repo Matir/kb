@@ -74,6 +74,11 @@ main:
         children:
           - title: Google Cloud
             url: /computers/cloud/gcloud
+  - title: Programming
+    url: /programming
+    children:
+      - title: Regular Expressions
+        url: /computers/regex
   - title: Electronics
     url: /electronics
     children:
