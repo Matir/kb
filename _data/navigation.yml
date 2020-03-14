@@ -60,16 +60,18 @@ main:
           - title: Chrome
             url: /computers/setup/chrome
           - title: Firefox
-      - title: Linux Shell
-        url: /computers/linux-shell
+      - title: Linux
+        url: /computers/linux
         children:
-          - title: tmux
-            url: /computers/tmux
+          - title: Shell
+            url: /computers/linux/shell
       - title: Windows Shell
       - title: Networking
         url: /computers/networking
       - title: Vim
         url: /computers/vim
+      - title: tmux
+        url: /computers/tmux
       - title: Cloud
         children:
           - title: Google Cloud

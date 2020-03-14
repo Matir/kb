@@ -8,6 +8,14 @@ There's a script that allows `tmux` to support and load plugins (which are, of
 course, just managed scripts themselves.)  [tmux Plugin
 Manager](https://github.com/tmux-plugins/tpm)
 
+## New Detached Session ##
+
+To start a new detached session (e.g., on reboot):
+
+```
+tmux new-session -d "command"
+```
+
 ## Replacements ##
 
 Some commands can have expansions in them.  These commands include:
