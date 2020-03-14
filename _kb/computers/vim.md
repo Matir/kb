@@ -41,3 +41,13 @@ Various things I end up using (and often forgetting):
 | ciw     | Normal  | Replace word currently under cursor |
 |---------|---------|-------------------------------------|
 
+## Using ctags ##
+
+After generating a tag file:
+
+|---------|---------|-------------------------------------|
+| Command | Mode    | Operation                           |
+|---------|---------|-------------------------------------|
+| ^]      | Normal  | Jump to definition |
+| ^t      | Normal  | Jump to previous point |
+|---------|---------|-------------------------------------|
