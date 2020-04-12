@@ -1,5 +1,5 @@
 ---
-Docker Recipes
+title: Docker Recipes
 ---
 
 ## MySQL In Docker
