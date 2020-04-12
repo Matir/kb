@@ -30,4 +30,4 @@ title: Various Pre-Setup Options
     `cd ..;umount boot;kpartx -d 2020-02-13-raspbian-buster-lite.g_ether.img`
 
 8. If no DHCP server is available, the pi will start with a link-local IP
-   address.
+   address. (`169.254.0.0/16`)
