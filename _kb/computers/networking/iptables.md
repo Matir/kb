@@ -1,6 +1,14 @@
 ---
-title: IPTables
+title: IPTables/NFTables
 ---
+
+## NFTables
+
+### Resources
+
+* [Migrating from iptables to nftables](https://wiki.nftables.org/wiki-nftables/index.php/Moving_from_iptables_to_nftables)
+
+## IPTables
 
 ### Port Forwarding
 

@@ -23,3 +23,4 @@ categories, or otherwise are generally useful.
 
 * [Kali Linux](https://www.kali.org/) - **The** canonical penetration testing
   distribution, formerly "Backtrack Linux"
+* [Commando VM](https://www.fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html) - Windows tool set.

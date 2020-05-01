@@ -17,6 +17,10 @@ See also [Recon](/security/recon).
 - [OWASP Testing Guide v4](/security/web/OTGv4.pdf)
 - [Web Application Hacker's Handbook](https://amzn.to/2Jx3PMJ)
 
+### Courses ###
+
+- [Web Security Academy](https://portswigger.net/web-security)
+
 ### Checklists ###
 
 - [WAHH Checklist](/security/web/wahh) - Testing Checklist from the Web
