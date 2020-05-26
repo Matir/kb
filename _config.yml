@@ -54,6 +54,7 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+   - navigation_check.py
 
 # Collections
 collections:
