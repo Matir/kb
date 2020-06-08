@@ -8,6 +8,12 @@ main:
         children:
           - title: Git (Github)
             url: /security/recon/git
+          - title: Nmap
+            url: /security/recon/nmap
+          - title: OSINT
+            url: /security/recon/osint
+          - title: Scanning
+            url: /security/recon/scanning
       - title: Social Engineering
         url: /security/social
       - title: Physical Security
@@ -15,19 +21,29 @@ main:
           - title: Lockpicking
           - title: Bypass
           - title: Access Control Cards
+          - title: Keys
+            url: /security/physical/keys
       - title: Exploitation
         children:
           - title: Exploit Development
             url: /security/exploit/exploitdev
           - title: Shellcoding
             url: /security/exploit/shellcoding
+          - title: Credentials
+            url: /security/exploit/credentials
       - title: Web Security
         url: /security/web
         children:
           - title: WAHH Checklist
             url: /security/web/wahh
           - title: Cross-Site Scripting (XSS)
-            url: /security/xss
+            url: /security/web/xss
+          - title: Enumeration
+            url: /security/web/enumeration
+          - title: IIS
+            url: /security/web/iis
+          - title: XXE
+            url: /security/web/xxe
       - title: Post-Exploitation
         url: /security/postex
         children:
@@ -35,10 +51,13 @@ main:
           - title: Windows
             url: /security/postex/windows
           - title: Linux
+            url: /security/postex/linux
           - title: Mac OS
           - title: Cloud
           - title: Reverse Shells
             url: /security/postex/reverse
+          - title: Persistence
+            url: /security/postex/persistence
       - title: Tools
         url: /security/tools
       - title: Red Teaming
@@ -46,12 +65,32 @@ main:
         children:
           - title: Reading
             url: /security/redteam/reading
+          - title: Infrastructure
+            url: /security/redteam/infra
           - title: Resources
             url: /security/redteam/resources
+      - title: Reverse Engineering
+        children:
+          - title: Resources
+            url: /security/re/resources
+      - title: Fuzzing
+        children:
+          - title: Testcases
+            url: /security/fuzzing/cases
+          - title: Resources
+            url: /security/fuzzing/resources
       - title: Learning
         children:
           - title: Resources
             url: /security/learning/resources
+      - title: Crypto
+        children:
+          - title: Crypto Tools
+            url: /security/crypto/tools
+      - title: Embedded
+        children:
+          - title: Embedded Resources
+            url: /security/embedded/resources
   - title: Computing
     children:
       - title: Custom Setups
@@ -59,15 +98,35 @@ main:
         children:
           - title: Chrome
             url: /computers/setup/chrome
+          - title: Chrome OS
+            url: /computers/setup/chromeos
           - title: Firefox
+          - title: Raspberry Pi
+            url: /computers/pi/pre_setup
       - title: Linux
         url: /computers/linux
         children:
           - title: Shell
             url: /computers/linux/shell
-      - title: Windows Shell
+          - title: Find
+            url: /computers/linux/find
+      - title: Windows
+        children:
+          - title: Activation
+            url: /computers/windows/activation
+          - title: Under KVM
+            url: /computers/windows/kvm
       - title: Networking
         url: /computers/networking
+        children:
+          - title: Bridging
+            url: /computers/networking/bridging
+          - title:
+            url: /computers/networking/iptables
+          - title: Split Routing
+            url: /computers/networking/split-routing
+          - title: TShark
+            url: /security/network/tshark
       - title: Vim
         url: /computers/vim
       - title: tmux
@@ -76,11 +135,21 @@ main:
         children:
           - title: Google Cloud
             url: /computers/cloud/gcloud
+          - title: Kubernetes
+            url: /computers/cloud/kubernetes
+      - title: Docker
+        children:
+          - title: Docker Recipes
+            url: /computers/docker/recipes
+      - title: Utilities
+        children:
+          - title: wget
+            url: /computers/utilities/wget
   - title: Programming
     url: /programming
     children:
       - title: Regular Expressions
-        url: /computers/regex
+        url: /programming/regex
   - title: Electronics
     url: /electronics
     children:
@@ -88,8 +157,20 @@ main:
       - title: JTAG
       - title: PCB Fabrication
         url: /electronics/pcbfabs
+      - title: Keyboards
+        url: /electronics/kbds
+      - title: Motors
+        url: /electronics/motors
+  - title: Hacking
+    children:
+      - title: Culture
+        url: /hackers/culture
   - title: Miscellaneous
     children:
       - title: Writing & Blogging
       - title: (Giving) Presentations & Talks
         url: /misc/talks
+      - title: Awesome Resources
+        url: /awesome
+      - title: Fonts
+        url: /misc/fonts
