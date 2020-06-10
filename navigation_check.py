@@ -2,6 +2,7 @@
 
 import os
 import os.path
+import sys
 import yaml
 
 
@@ -61,12 +62,14 @@ def main():
     paths = get_file_paths()
     if contains_dupes(paths):
         print('Warning: Duplicates in Paths!')
-    #print(paths)
+        sys.exit(1)
     missing = set(paths) - set(navs)
     if missing:
         print('Missing paths from nav:')
         for p in sorted(missing):
             print('-- {}'.format(p))
+        sys.exit(1)
+    sys.exit(0)
 
 
 if __name__ == '__main__':
