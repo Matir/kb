@@ -87,6 +87,8 @@ main:
         children:
           - title: Crypto Tools
             url: /security/crypto/tools
+          - title: Encrypting Files
+            url: /security/crypto/file
       - title: Embedded
         children:
           - title: Embedded Resources
