@@ -51,3 +51,7 @@ After generating a tag file:
 | ^]      | Normal  | Jump to definition |
 | ^t      | Normal  | Jump to previous point |
 |---------|---------|-------------------------------------|
+
+## Resources ##
+
+* [vim and ctags](https://andrew.stwrt.ca/posts/vim-ctags/)

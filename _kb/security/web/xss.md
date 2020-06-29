@@ -11,3 +11,4 @@ title: Cross-Site Scripting (XSS)
 ## Tools ##
 
 * [XSS Hunter](https://xsshunter.com/)
+* [XSStrike](https://github.com/s0md3v/XSStrike) - SQLMap for XSS

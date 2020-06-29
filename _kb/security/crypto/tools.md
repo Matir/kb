@@ -11,3 +11,7 @@ title: Crypto Tools
 - [Signify](https://github.com/aperezdc/signify): sign and verify files
 - [Minisign](https://github.com/jedisct1/minisign): fork of signify, using libsodium
 - [Magic wormhole](https://github.com/warner/magic-wormhole): end-to-end encrypted file transfer.
+
+## Analysis Tools
+
+- [Stego Toolkit](https://github.com/DominicBreuker/stego-toolkit)

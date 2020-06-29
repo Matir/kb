@@ -31,3 +31,10 @@ See also [Recon](/security/recon).
 - Burp Suite
 - BeEF
 - SQLMap
+
+## Tools ##
+
+* [autochrome](https://github.com/nccgroup/autochrome) - NCC Group tool to build
+  pre-configured Chromium for proxy
+* [aquatone](https://github.com/michenriksen/aquatone) - Build HTTP report of
+  screenshots of targets
