@@ -93,6 +93,24 @@ main:
         children:
           - title: Embedded Resources
             url: /security/embedded/resources
+      - title: Authentication
+        children:
+          - title: U2F (Universal 2 Factor)
+            url: /security/authn/u2f
+      - title: Cloud Security
+        url: /security/cloud
+      - title: Network Security
+        children:
+          - title: Network Security Tools
+            url: /security/network/tools
+      - title: Operational Security
+        children:
+          - title: OPSEC Resources
+            url: /security/opsec/resources
+      - title: Wireless Security
+        children:
+          - title: WiFi Security
+            url: /security/wireless/wifi
   - title: Computing
     children:
       - title: Custom Setups
@@ -143,6 +161,8 @@ main:
         children:
           - title: Docker Recipes
             url: /computers/docker/recipes
+          - title: Docker Tools
+            url: /computers/docker/tools
       - title: Utilities
         children:
           - title: wget
@@ -163,10 +183,18 @@ main:
         url: /electronics/kbds
       - title: Motors
         url: /electronics/motors
+      - title: Flash Memory
+        url: /electronics/flash
   - title: Hacking
     children:
       - title: Culture
         url: /hackers/culture
+  - title: Making
+    children:
+      - title: 3D Printing
+        children:
+          - title: LED Housing/Diffusers
+            url: /making/3dp/leds
   - title: Miscellaneous
     children:
       - title: Writing & Blogging
