@@ -2,6 +2,10 @@
 title: Hacker Culture
 ---
 
+## Reading
+
+* [Hacker Culture Reading List](https://systemoverlord.com/2020/06/26/security-culture-reading-list.html)
+
 ### The Conscience of a Hacker (The Hacker Manifesto) ###
 
 > Another one got caught today, it's all over the papers. "Teenager Arrested in
