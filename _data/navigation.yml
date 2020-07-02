@@ -128,6 +128,8 @@ main:
         children:
           - title: Shell
             url: /computers/linux/shell
+          - title: Bash
+            url: /computers/linux/bash
           - title: Find
             url: /computers/linux/find
       - title: Windows
@@ -167,6 +169,8 @@ main:
         children:
           - title: wget
             url: /computers/utilities/wget
+      - title: KVM/Libvirt
+        url: /computers/kvm
   - title: Programming
     url: /programming
     children:
