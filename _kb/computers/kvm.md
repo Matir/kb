@@ -80,3 +80,28 @@ Filesystem at /dev/vdb1 is mounted on /media/plex; on-line resizing required
 old_desc_blocks = 113, new_desc_blocks = 138
 The filesystem on /dev/vdb1 is now 576716539 (4k) blocks long.
 ```
+
+## Display Resizing
+
+`spice-vdagent` must be installed on the guest, and the spicevmc channel must be
+enabled on the host.  Must close the spice display session and reopen it to
+establish communications.
+
+At some point, `spice-vdagent` changed to not resize itself, but send a
+notification to the desktop environment.  Noted in a [stackoverflow
+discussion](https://stackoverflow.com/questions/41990600/virt-manager-guest-resize-not-working) ([another](https://superuser.com/questions/1183834/no-auto-resize-with-spice-and-virt-manager))
+as well as [Debian bug](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=858549#15),
+and a [MATE Bug](https://github.com/mate-desktop/marco/issues/338).
+
+Manual resizing can be done via:
+
+```
+xrandr --output Virtual-0 --auto
+```
+
+## virt-viewer to access Spice Console
+
+```
+virt-viewer -c qemu:///system Kali
+virt-viewer -c qemu+ssh://scar/system Kali
+```
