@@ -11,6 +11,8 @@ Fontconfig.  Run `fc-list` to see the fonts available.
 
 Just some fonts I like to use.
 
+### Graphic Design ###
+
 * [Anton
   Regular](https://github.com/google/fonts/blob/master/ofl/anton/Anton-Regular.ttf)
   is a narrow font with a bold feel to it.  Great for words visible at a
@@ -25,3 +27,10 @@ Just some fonts I like to use.
 * [Roboto
   Condensed](https://github.com/google/fonts/tree/master/apache/robotocondensed)
   much like the Android Roboto font, used on the back of my 2018 Business Card.
+
+### Fixed Width/Programming ###
+
+* [Fira Code](https://github.com/tonsky/FiraCode) is a great
+  programming/terminal font.
+* [Inconsolata](https://fonts.google.com/specimen/Inconsolata) is another great
+  font.
