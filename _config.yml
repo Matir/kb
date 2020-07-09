@@ -73,3 +73,9 @@ defaults:
       toc: true
       sidebar:
         nav: main
+
+# Footer data
+footer:
+  links:
+    - label: "Matir's Blog"
+      url: https://systemoverlord.com/
