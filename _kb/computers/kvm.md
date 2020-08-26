@@ -105,3 +105,10 @@ xrandr --output Virtual-0 --auto
 virt-viewer -c qemu:///system Kali
 virt-viewer -c qemu+ssh://scar/system Kali
 ```
+
+## Performance Testing
+
+```
+perf kvm record --host --guest -o perf-stats.kvm -p {PID}
+perf kvm report -i perf-stats.kvm
+```

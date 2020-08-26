@@ -6,6 +6,8 @@ main:
       - title: Recon
         url: /security/recon
         children:
+          - title: DNS
+            url: /security/recon/dns
           - title: Git (Github)
             url: /security/recon/git
           - title: Nmap
@@ -14,6 +16,8 @@ main:
             url: /security/recon/osint
           - title: Scanning
             url: /security/recon/scanning
+          - title: Web
+            url: /security/recon/web
       - title: Social Engineering
         url: /security/social
       - title: Physical Security
@@ -89,6 +93,8 @@ main:
             url: /security/crypto/tools
           - title: Encrypting Files
             url: /security/crypto/file
+          - title: Resources
+            url: /security/crypto/resources
       - title: Embedded
         children:
           - title: Embedded Resources
@@ -103,6 +109,8 @@ main:
         children:
           - title: Network Security Tools
             url: /security/network/tools
+          - title: NAC
+            url: /security/network/nac
       - title: Operational Security
         children:
           - title: OPSEC Resources
@@ -143,12 +151,16 @@ main:
         children:
           - title: Bridging
             url: /computers/networking/bridging
-          - title:
+          - title: IPTables
             url: /computers/networking/iptables
+          - title: pfSense
+            url: /computers/networking/pfsense
           - title: Split Routing
             url: /computers/networking/split-routing
           - title: TShark
             url: /security/network/tshark
+          - title: Wireless
+            url: /computers/networking/wireless
       - title: Vim
         url: /computers/vim
       - title: tmux
@@ -171,6 +183,10 @@ main:
             url: /computers/utilities/wget
       - title: KVM/Libvirt
         url: /computers/kvm
+      - title: Raspberry Pi
+        children:
+          - title: UART
+            url: /computers/pi/uart
   - title: Programming
     url: /programming
     children:
