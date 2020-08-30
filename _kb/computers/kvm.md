@@ -112,3 +112,15 @@ virt-viewer -c qemu+ssh://scar/system Kali
 perf kvm record --host --guest -o perf-stats.kvm -p {PID}
 perf kvm report -i perf-stats.kvm
 ```
+
+## Windows Bugs
+
+### Kernel Security Check Failure
+
+Due to Ryzen's STIBP feature, needs to be disabled:
+
+```
+<cpu mode="host-passthrough" check="partial" migratable="on">
+    <feature policy="disable" name="amd-stibp"/>
+</cpu>
+```
