@@ -59,3 +59,8 @@ Or with iproute2:
 ```
 ip link set <bridge> type bridge ageing_time 0
 ```
+
+## References
+
+- [Port Mirroring With Linux
+  Bridges](https://backreference.org/2014/06/17/port-mirroring-with-linux-bridges/)
