@@ -73,6 +73,8 @@ defaults:
       toc: true
       sidebar:
         nav: main
+      include: []
+      related: []
 
 # Footer data
 footer:
