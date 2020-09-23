@@ -1,5 +1,5 @@
 ---
-title: ChromeOS
+title: ChromeOS Setup
 ---
 
 ## Terminal (Secure Shell App) ##

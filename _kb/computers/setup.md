@@ -2,6 +2,8 @@
 title: Computer Setup
 tags:
   - Checklist
+related:
+  - /computers/setup/chromeos
 ---
 
 ## Basic Setup ##
@@ -18,7 +20,3 @@ sh ${HOME}/.skel/install.sh
 
 * [Chrome](/computers/setup/chrome)
 * Firefox
-
-## Other OS ##
-
-* [ChromeOS](/computers/setup/chromeos)

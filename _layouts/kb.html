@@ -5,16 +5,26 @@ layout: kb_base
 {{content}}
 
 {% for i in page.include %}
-<h2><a href="{{i.url}}">{{i.title}}</a></h2>
-<div>
-  {{i.content | markdownify}}
-</div>
+  {% for p in site.kb %}
+    {% if p.id == i %}
+      <h2><a href="{{p.url}}">{{p.title}}</a></h2>
+      <div>
+        {{p.content | markdownify}}
+      </div>
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 {% capture related %}
 <ul id='related'>
   {% for i in page.related %}
-  <li><a href="{{i.url}}">{{i.title}}</a></li>
+    {% for p in site.kb %}
+      {% if p.id == i %}
+        <li><a href="{{p.url}}">{{p.title}}</a></li>
+        {% break %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 {% endcapture %}
