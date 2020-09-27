@@ -87,4 +87,13 @@ Note that this is similar to attaching an existing session, but the
 
 ## Logging ##
 
+### Module
 See the [tmux-logging](https://github.com/tmux-plugins/tmux-logging) module.
+
+### Saving Current Buffer
+
+Press `^B, :` to get into the `tmux` command line.
+
+```
+capture-pane -S - ; save-buffer OUTFILE
+```
