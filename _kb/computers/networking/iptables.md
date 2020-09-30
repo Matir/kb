@@ -1,5 +1,7 @@
 ---
 title: IPTables/NFTables
+include:
+  - /computers/networking/iptables_proxy
 ---
 
 ## NFTables
