@@ -47,7 +47,7 @@ values.
 - [KhanAcademy](https://www.khanacademy.org/) - Freemium
 - [Offensive Security](https://www.offensive-security.com) - Great Value
 
-## Test Environments
+## Test Environments/Games
 
 ### Vulnerable VMs
 
@@ -57,6 +57,8 @@ values.
 ### Target Networks
 
 - [Hack the Box](https://hackthebox.eu)
+- [Try Hack Me](https://tryhackme.com)
+- [Offensive Security Proving Grounds](https://www.offensive-security.com/labs/)
 
 ### Blue/Defense
 
@@ -66,7 +68,9 @@ values.
 ### Wargames
 
 - [OverTheWire](http://overthewire.org/wargames/)
+- [UnderTheWire](https://underthewire.tech/) (Powershell Based)
 - [SANS Holiday Hack Challenge](https://holidayhackchallenge.com)
+- [WeChall](https://www.wechall.net/) - Wargame aggregator
 
 ## Lists Of Resources
 
