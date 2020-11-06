@@ -97,3 +97,27 @@ Press `^B, :` to get into the `tmux` command line.
 ```
 capture-pane -S - ; save-buffer OUTFILE
 ```
+
+## Updating SSH-Agent ##
+
+For a remote SSH agent updater:
+
+* [Happy ssh agent forwarding for tmux/screen](https://werat.github.io/2017/02/04/tmux-ssh-agent-forwarding.html)
+
+Basically update a symlink on SSH then use the symlink socket:
+
+`~/.ssh/rc`:
+
+```sh
+#!/bin/sh
+
+if [ ! -S ~/.ssh/ssh_auth_sock ] && [ -S "$SSH_AUTH_SOCK" ]; then
+    ln -sf $SSH_AUTH_SOCK ~/.ssh/ssh_auth_sock
+fi
+```
+
+`~/.tmux.conf`:
+
+```
+set-environment -g 'SSH_AUTH_SOCK' ~/.ssh/ssh_auth_sock
+```
