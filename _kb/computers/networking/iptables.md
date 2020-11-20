@@ -2,6 +2,7 @@
 title: IPTables/NFTables
 include:
   - /computers/networking/iptables_proxy
+  - /computers/networking/iptables_flow
 ---
 
 ## NFTables
