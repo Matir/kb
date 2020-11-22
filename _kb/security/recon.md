@@ -1,19 +1,19 @@
 ---
-title: Recon
+title: Recon & Enumeration
+related:
+  - /security/recon/web
+  - /security/recon/dns
 ---
 
-## OSINT ##
+There's a lot of overlap between recon and enumeration, so they're all kindof
+mixed in to this section.
 
-* [Git (GitHub)](/security/recon/git)
+## Collections/Meta
 
-## Network Enumeration ##
-
-### Port & Service Discovery ###
-
-* [nmap](/security/recon/nmap)
-
-## Web Recon ##
-
-### Directory Enumeration ###
-
-* [webborer](https://github.com/Matir/webborer) -- Obviously, my own tool.  :)
+- [ProjectDiscovery](https://github.com/projectdiscovery)
+- [OWASP Amass](https://github.com/OWASP/Amass)
+- [Recon My Way](https://github.com/ehsahil/recon-my-way) from ehsahil
+- [Rawsec's CyberSecurity
+  Inventory](https://inventory.rawsec.ml/tools.html#discover)
+- [AutoRecon](https://github.com/Tib3rius/AutoRecon) - Combined recon tools
+- [Spartan](https://github.com/Mad-robot/Spartan)

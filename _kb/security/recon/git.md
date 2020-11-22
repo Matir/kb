@@ -25,6 +25,12 @@ GitHub can be a wealth of information.
 
 * [Gitrob](https://github.com/michenriksen/gitrob) -- Look for keys and
   sensitive files in repositories and present the results as a web interface.
+* [truffleHog](https://github.com/dxa4481/truffleHog) -- digs through commit
+  history and branches looking for secrets checked in
+* [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) -- search
+  through multiple git repos and run scanners against them
+* [github dorks](https://github.com/techgaun/github-dorks) -- search github for
+  interesting information
 
 ### Git grep ###
 
