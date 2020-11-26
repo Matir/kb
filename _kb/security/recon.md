@@ -17,3 +17,4 @@ mixed in to this section.
   Inventory](https://inventory.rawsec.ml/tools.html#discover)
 - [AutoRecon](https://github.com/Tib3rius/AutoRecon) - Combined recon tools
 - [Spartan](https://github.com/Mad-robot/Spartan)
+- [Recon Pipeline](https://github.com/epi052/recon-pipeline)
