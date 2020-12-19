@@ -14,3 +14,9 @@ Dumps DNS queries with just timestamp and hostname:
 ```
 tshark -f "port 53" -T fields -e frame.time_epoch -e dns.qry.name
 ```
+
+### See TCP Connection Flows ###
+
+```
+tshark -r PCAP -z conv,tcp
+```
