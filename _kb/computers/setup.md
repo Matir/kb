@@ -20,3 +20,7 @@ sh ${HOME}/.skel/install.sh
 
 * [Chrome](/computers/setup/chrome)
 * Firefox
+
+## Windows
+
+* [Windows Setup](/computers/setup/windows)
