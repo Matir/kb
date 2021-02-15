@@ -8,7 +8,6 @@ title: Linux Post Exploitation
   linux environment.
 * [LinEnum](https://github.com/rebootuser/LinEnum)
 * [GTFOBins](https://gtfobins.github.io/) -- Bypass local restrictions
-* [LOLBAS](https://lolbas-project.github.io/#) -- Living off the Land
 
 ## Techniques ##
 

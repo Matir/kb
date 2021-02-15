@@ -177,3 +177,5 @@ Other credential types:
 
 * [Room362 Windows Postex List](https://docs.google.com/document/d/1U10isynOpQtrIK6ChuReu-K1WHTJm4fgG3joiuz43rw/edit?hl=en_US)
 * [PentestLab Stored Credentials](https://pentestlab.blog/2017/04/19/stored-credentials/)
+* [LOLBAS](https://lolbas-project.github.io/#) -- Living off the Land
+* [AD Security](https://adsecurity.org/)
