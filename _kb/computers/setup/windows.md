@@ -12,3 +12,12 @@ title: Windows Setup
 * [Wireshark](https://www.wireshark.org/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [Atom](https://atom.io/)
+* [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+* [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
+
+## Recommended by JayzTwoCents ##
+
+Video source: [YouTube](https://www.youtube.com/watch?v=PRbMfZKuRUo)
+
+* [GPU-Z from Tech Power Up](https://www.techpowerup.com/gpuz/)
+* [HWMonitor from CPUID](https://www.cpuid.com/softwares/hwmonitor.html)
