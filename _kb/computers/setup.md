@@ -24,3 +24,4 @@ sh ${HOME}/.skel/install.sh
 ## Windows
 
 * [Windows Setup](/computers/setup/windows)
+* [Linux Details](/computers/setup/linux)
