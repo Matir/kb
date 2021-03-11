@@ -12,6 +12,8 @@ Create a secret:
       <volume>/vms/PATH</volume>
    </usage>
 </secret>
+
+virsh secret-define volume-secret.xml
 ```
 
 Populate the secret:
