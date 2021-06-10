@@ -172,6 +172,7 @@ Other credential types:
 * Mimikatz
 * Responder
 * SETH
+* [WinPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS) -- Enumerate possible privilege escalation options
 
 ## Resources ##
 
@@ -179,3 +180,4 @@ Other credential types:
 * [PentestLab Stored Credentials](https://pentestlab.blog/2017/04/19/stored-credentials/)
 * [LOLBAS](https://lolbas-project.github.io/#) -- Living off the Land
 * [AD Security](https://adsecurity.org/)
+* [Windows Privilege Escalation](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#eop---looting-for-passwords)
