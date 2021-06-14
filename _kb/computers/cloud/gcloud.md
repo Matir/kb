@@ -22,3 +22,11 @@ configuration for as long as the variable is set.
 
 `gcloud --configuration=<name>` uses an alternative configuration for one
 command.
+
+## Finding Information ##
+
+### Searching/Listing ###
+
+* Find all available accelerators:
+
+`gcloud compute accelerator-types list --filter 'zone~us- AND name!~vws'`
