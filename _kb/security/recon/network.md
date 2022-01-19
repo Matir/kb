@@ -12,3 +12,11 @@ related:
   CloudFlare protected services
 - [Masscan](https://github.com/robertdavidgraham/masscan) -- large-scale
   scanning
+- [Recon-ng]
+
+## Online Tools
+
+- [Shodan](https://www.shodan.io)
+- [Censys](https://search.censys.io/)
+- [Threat Intelligence Platform](https://threatintelligenceplatform.com)
+- [ViewDNS.info](https://viewdns.info)
