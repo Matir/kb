@@ -23,6 +23,7 @@ main:
       - title: Physical Security
         children:
           - title: Lockpicking
+            url: /security/physical/lockpicking
           - title: Bypass
           - title: Access Control Cards
           - title: Keys
@@ -38,6 +39,8 @@ main:
       - title: Web Security
         url: /security/web
         children:
+          - title: Burp Suite
+            url: /security/web/burp
           - title: WAHH Checklist
             url: /security/web/wahh
           - title: Cross-Site Scripting (XSS)
@@ -105,6 +108,9 @@ main:
             url: /security/authn/u2f
       - title: Cloud Security
         url: /security/cloud
+        children:
+          - title: Google Cloud
+            url: /security/cloud/gcp
       - title: Network Security
         children:
           - title: Network Security Tools
@@ -119,6 +125,10 @@ main:
         children:
           - title: WiFi Security
             url: /security/wireless/wifi
+      - title: Container Security
+        children:
+          - title: Docker
+            url: /security/docker
   - title: Computing
     children:
       - title: Custom Setups
@@ -131,21 +141,38 @@ main:
           - title: Firefox
           - title: Raspberry Pi
             url: /computers/pi/pre_setup
+          - title: Linux
+            url: /computers/setup/linux
+          - title: Windows
+            url: /computers/setup/windows
       - title: Linux
         url: /computers/linux
         children:
           - title: Shell
             url: /computers/linux/shell
+            children:
+              - title: GNU AWK
+                url: /computers/linux/shell/awk
+              - title: Find
+                url: /computers/linux/find
           - title: Bash
             url: /computers/linux/bash
-          - title: Find
-            url: /computers/linux/find
+          - title: Benchmarking
+            url: /computers/linux/benchmarks
+          - title: XFCE Window Manager
+            url: /computers/linux/xfce
       - title: Windows
         children:
           - title: Activation
             url: /computers/windows/activation
           - title: Under KVM
             url: /computers/windows/kvm
+          - title: Tools
+            url: /computers/windows/tools
+          - title: Hardware Monitoring
+            url: /computers/windows/hwmonitoring
+          - title: Port Forwarding
+            url: /computers/windows/portfwd
       - title: Networking
         url: /computers/networking
         children:
@@ -171,18 +198,26 @@ main:
             url: /computers/cloud/gcloud
           - title: Kubernetes
             url: /computers/cloud/kubernetes
+            children:
+              - title: Minikube
+                url: /computers/cloud/minikube
       - title: Docker
         children:
           - title: Docker Recipes
             url: /computers/docker/recipes
           - title: Docker Tools
             url: /computers/docker/tools
+          - title: Userful Containers
+            url: /computers/docker/containers
       - title: Utilities
         children:
           - title: wget
             url: /computers/utilities/wget
       - title: KVM/Libvirt
         url: /computers/kvm
+        children:
+          - title: LUKS under KVM
+            url: /computers/kvm/luks
       - title: Raspberry Pi
         children:
           - title: UART
@@ -205,6 +240,8 @@ main:
         url: /electronics/motors
       - title: Flash Memory
         url: /electronics/flash
+      - title: Useful Parts
+        url: /electronics/parts
   - title: Hacking
     children:
       - title: Culture
@@ -215,6 +252,14 @@ main:
         children:
           - title: LED Housing/Diffusers
             url: /making/3dp/leds
+          - title: Generic Shapes
+            url: /making/3dp/shapes
+  - title: Math
+    children:
+      - title: Coupon Problem
+        url: /math/coupons
+      - title: Eliptic Curves
+        url: /math/ecc
   - title: Miscellaneous
     children:
       - title: Writing & Blogging
@@ -224,3 +269,5 @@ main:
         url: /awesome
       - title: Fonts
         url: /misc/fonts
+      - title: KB Meta
+        url: /meta
