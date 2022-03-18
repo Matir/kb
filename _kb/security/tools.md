@@ -11,6 +11,9 @@ categories, or otherwise are generally useful.
   and managing a bunch of other tools at the same time.
 * [GTFOBins](https://gtfobins.github.io/) - Privilege escalation tools on Unix
 * [LOLBAS](https://lolbas-project.github.io/) - Living Off the Land Binaries
+* [LOTS Project](https://lots-project.com/) - Living Off Trusted Sites
+* [HOUDINI](https://github.com/cybersecsi/HOUDINI) - Hundreds of Offensive and
+  Useful Docker Images for Network Intrusion
 
 ## Common Tools ##
 

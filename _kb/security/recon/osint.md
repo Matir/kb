@@ -12,3 +12,8 @@ title: OSINT Tools
 - [Yahoo! People Search](https://itools.com/tool/yahoo-people-search)
 - [Switchboard](https://www.switchboard.com/person)
 - [Zaba Search](https://www.zabasearch.com/)
+
+## Social Media Tools
+
+- [Sherlock](https://github.com/sherlock-project/sherlock)
+  - [Guide to Using Sherlock](https://blog.octachart.com/hunt-down-social-media-accounts-with-python-sherlock)

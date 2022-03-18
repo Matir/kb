@@ -55,3 +55,4 @@ After generating a tag file:
 ## Resources ##
 
 * [vim and ctags](https://andrew.stwrt.ca/posts/vim-ctags/)
+* [Learn vim for the last time](https://danielmiessler.com/study/vim/)

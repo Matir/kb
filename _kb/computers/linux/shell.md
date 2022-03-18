@@ -55,3 +55,7 @@ character (default `^A`) and then:
 ```
 :log <name of log>
 ```
+
+## Cool Shell Utilities ##
+
+* [bat](https://github.com/sharkdp/bat) - A modern take on `cat`.
