@@ -10,3 +10,7 @@ title: Fuzzing Libraries
 
 * Preeny
 * [libdesock](https://github.com/fkie-cad/libdesock)
+
+## Harness Generation
+
+* [Autoharness](https://github.com/parikhakshat/autoharness)

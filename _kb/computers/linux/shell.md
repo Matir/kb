@@ -59,3 +59,6 @@ character (default `^A`) and then:
 ## Cool Shell Utilities ##
 
 * [bat](https://github.com/sharkdp/bat) - A modern take on `cat`.
+* [modern-unix](https://github.com/ibraheemdev/modern-unix) - List of "modern
+  unix" utilities.
+* [starship](https://starship.rs/) - A modern cross-shell prompt.
