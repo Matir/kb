@@ -35,5 +35,7 @@ categories, or otherwise are generally useful.
 * [Printer Exploitation Toolkit (PRET)](https://github.com/RUB-NDS/PRET)
 * [Interactive Kiosk Attack Tool](http://www.ikat.kronicd.net/)
 * [Firmadyne Firmware Analysis](https://github.com/firmadyne/firmadyne)
-* [Werdlists](https://github.com/decal/werdlists) - Wordlists for all kinds of
-  things
+* [Werdlists](https://github.com/decal/werdlists) -
+  Wordlists for all kinds of things
+* [SecLists](https://github.com/danielmiessler/SecLists) -
+  More lists of useful things.
