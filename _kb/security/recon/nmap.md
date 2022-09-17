@@ -16,5 +16,7 @@ nmap -Pn -p- -sV -T3 -sS -oA scan_results $TARGET
 
 ## Companion Tools
 
-* [nmap-parse-output](https://github.com/ernw/nmap-parse-output) - Shell plugin
-  to parse output from nmap.
+* [nmap-parse-output](https://github.com/ernw/nmap-parse-output) -
+  Shell plugin to parse output from nmap.
+* [nmap-grep](https://github.com/actuated/nmap-grep) -
+  Tool for parsing grepable nmap files.
