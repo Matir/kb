@@ -16,3 +16,8 @@ title: Embedded Security Resources
 * [Firmadyne](https://github.com/firmadyne/firmadyne) - Platform for emulation and dynamic analysis of Linux-based firmware
 * [FirmWire](https://github.com/FirmWire/FirmWire) - Baseband firmware analysis
   platform
+
+## Test Targets
+
+* [Damn Vulnerable Arm
+  Router](https://www.vulnhub.com/entry/damn-vulnerable-arm-router-dvar-tinysploitarm,224/)
