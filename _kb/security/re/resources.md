@@ -6,3 +6,5 @@ title: Reverse Engineering Resources
 * [RE for Beginners](https://beginners.re/)
 * [Frida Boot](https://github.com/leonjza/frida-boot#quickstart) (Binary
   Instrumention with Frida)
+* [Frida Handbook](https://learnfrida.info/)
+* [Reverse Engineering for Everyone](https://0xinfection.github.io/reversing/)
