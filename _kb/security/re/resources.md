@@ -8,3 +8,8 @@ title: Reverse Engineering Resources
   Instrumention with Frida)
 * [Frida Handbook](https://learnfrida.info/)
 * [Reverse Engineering for Everyone](https://0xinfection.github.io/reversing/)
+
+## Tools
+
+* [ReHex](https://github.com/solemnwarning/rehex) - Reverse Engineer's Hex
+  Editor
