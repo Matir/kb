@@ -9,3 +9,7 @@ title: SSH Security
 ## Key Management
 
 * [Melt](https://github.com/charmbracelet/melt) - Backup and restore SSH private keys using memorizable seed phrases.
+
+## Exploitation
+
+* [SSH-MITM](https://docs.ssh-mitm.at/)

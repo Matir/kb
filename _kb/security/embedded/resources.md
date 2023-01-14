@@ -11,6 +11,15 @@ title: Embedded Security Resources
 * [WrongBaud](https://wrongbaud.github.io/series/)
 * [IoT Ecosystem Testing Methodoloy](https://www.rapid7.com/research/report/iot-ecosystem-testing-methodology/)
 
+### Platform Resources
+
+* ESP32
+  * [ESP-IDF Setup
+    Guide](https://www.elttam.com/blog/esp-idf-setup-guide/#content) - Setup IDF
+    for ESP32 vuln research
+* RISC-V
+  * [RISC-V Guide](https://github.com/mikeroyal/RISC-V-Guide)
+
 ## Software Tools
 
 * [Firmadyne](https://github.com/firmadyne/firmadyne) - Platform for emulation and dynamic analysis of Linux-based firmware
