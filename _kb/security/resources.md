@@ -15,3 +15,4 @@ These are resources across different security areas.
 * [HOUDINI](https://github.com/cybersecsi/HOUDINI) - Hundreds of Offensive and Useful Docker Images for Network Intrusion
 * Wordlists
   * [oxasploits Wordlists](https://oxasploits.com/wordlists/)
+* [Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
