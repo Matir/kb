@@ -7,3 +7,5 @@ title: Crypto Resources
 * [A Graduate Course in Applied Cryptography](http://toc.cryptobook.us/)
   * By Dan Boneh and Victor Shoup
   * [PDF of Book](http://toc.cryptobook.us/book.pdf)
+* [Cryptopals challenges](https://cryptopals.com/)
+* [Cryptohack](https://cryptohack.org/)

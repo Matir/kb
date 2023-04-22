@@ -163,3 +163,8 @@ nc -lvp $PORT
 
 After connecting, run the commands provided by the original script, and you
 should be good to go.
+
+### Other Upgrading Tips ###
+
+See
+[ropnop's upgrading guide](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)

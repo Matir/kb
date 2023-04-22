@@ -10,3 +10,4 @@ title: Mobile Security
 ## Resources
 
 * [Android App RE 101](https://www.ragingrock.com/AndroidAppRE/)
+* [apk.sh for Android Apps](https://github.com/ax/apk.sh)

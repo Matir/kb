@@ -13,3 +13,4 @@ title: Reverse Engineering Resources
 
 * [ReHex](https://github.com/solemnwarning/rehex) - Reverse Engineer's Hex
   Editor
+* [Kaitai](https://kaitai.io/) - Understand binary formats.
