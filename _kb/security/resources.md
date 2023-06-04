@@ -16,3 +16,7 @@ These are resources across different security areas.
 * Wordlists
   * [oxasploits Wordlists](https://oxasploits.com/wordlists/)
 * [Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
+* [HackTricks](https://book.hacktricks.xyz/)
+* [DarthSidious](https://hunter2.gitbook.io/)
+* [Getting Started with Exploit
+  Development](https://dayzerosec.com/blog/2021/02/02/getting-started.html)

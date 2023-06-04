@@ -53,6 +53,7 @@ values.
 
 - [Metasploitable 2](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/)
 - [Vulnhub](https://vulnhub.com)
+- [DVWS-Node](https://github.com/snoopysecurity/dvws-node)
 
 ### Target Networks
 
