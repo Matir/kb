@@ -40,6 +40,7 @@ values.
 - [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
 - [SANS CyberAces](http://www.cyberaces.org/courses/)
 - [Max Kersten Binary Analysis Course](https://maxkersten.nl/binary-analysis-course/)
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 
 ### Paid
 
@@ -60,6 +61,7 @@ values.
 - [Hack the Box](https://hackthebox.eu)
 - [Try Hack Me](https://tryhackme.com)
 - [Offensive Security Proving Grounds](https://www.offensive-security.com/labs/)
+- [Virtual Hacking Labs](https://www.virtualhackinglabs.com/)
 
 ### Blue/Defense
 
