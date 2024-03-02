@@ -100,6 +100,11 @@ title: Useful Linux Tools
     * [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter `cd` (i.e.,
       replace in your path, etc.) (Arch: `zoxide`)
 
+## Dynamic Instrumentation
+
+* [Forkstat](https://github.com/ColinIanKing/forkstat) - watch for child
+  processes.
+
 ## Cheat Sheets/Documentation
 
 * [tldr](https://github.com/tldr-pages/tldr) - Practical examples of various
