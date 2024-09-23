@@ -20,3 +20,4 @@ These are resources across different security areas.
 * [DarthSidious](https://hunter2.gitbook.io/)
 * [Getting Started with Exploit
   Development](https://dayzerosec.com/blog/2021/02/02/getting-started.html)
+* [A-poc RedTeam Tools](https://github.com/A-poc/RedTeam-Tools)
