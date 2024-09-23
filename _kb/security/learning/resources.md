@@ -41,6 +41,8 @@ values.
 - [SANS CyberAces](http://www.cyberaces.org/courses/)
 - [Max Kersten Binary Analysis Course](https://maxkersten.nl/binary-analysis-course/)
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [CS6265](https://tc.gts3.org/cs6265/2021/tut/tut00-intro.html) - Georgia Tech
+  Information Security Lab course, mostly binary exploitation focused.
 
 ### Paid
 
@@ -67,6 +69,7 @@ values.
 
 - [PCAP Exercises](https://www.malware-traffic-analysis.net/training-exercises.html)
 - [Honeynet Challenges](http://www.honeynet.org/)
+- [Detection Lab](https://github.com/clong/DetectionLab) (Deprecated)
 
 ### Wargames
 
