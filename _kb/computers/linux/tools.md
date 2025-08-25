@@ -24,6 +24,7 @@ title: Useful Linux Tools
 * [procs](https://github.com/dalance/procs) - Modern replacement for ps
 * [httpie](https://github.com/httpie/httpie) - Modern command-line client for
   HTTP.
+* [difftastic](https://github.com/Wilfred/difftastic) - Semantic diff tool.
 
 ## Prompts/Shell Frameworks
 
