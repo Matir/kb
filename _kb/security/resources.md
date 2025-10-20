@@ -21,3 +21,5 @@ These are resources across different security areas.
 * [Getting Started with Exploit
   Development](https://dayzerosec.com/blog/2021/02/02/getting-started.html)
 * [A-poc RedTeam Tools](https://github.com/A-poc/RedTeam-Tools)
+* [Bellingcat Online Investigation
+  Toolkit](https://bellingcat.gitbook.io/toolkit)

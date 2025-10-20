@@ -2,8 +2,7 @@
 title: Reverse Engineering Resources
 ---
 
-* [Applied Reverse Engineering](https://revers.engineering/applied-reverse-engineering-series/) by Daax Rynd
-* [RE for Beginners](https://beginners.re/)
+* [Applied Reverse Engineering](https://revers.engineering/applied-reverse-engineering-series/) by Daax Rynd [RE for Beginners](https://beginners.re/)
 * [Frida Boot](https://github.com/leonjza/frida-boot#quickstart) (Binary
   Instrumention with Frida)
 * [Frida Handbook](https://learnfrida.info/)
@@ -15,3 +14,7 @@ title: Reverse Engineering Resources
   Editor
 * [Kaitai](https://kaitai.io/) - Understand binary formats.
 * [fq](https://github.com/wader/fq) - JQ for file formats
+
+## Training
+
+* [MalwareTech Labs](https://malwaretech.com/labs/)
