@@ -16,6 +16,16 @@ To start a new detached session (e.g., on reboot):
 tmux new-session -d "command"
 ```
 
+## Run a Few Commands In Windows ##
+
+```
+tmux new-session -d -s "my-project" -n "Code" "vim" \; \
+     new-window -n "Run" "go run ./cmd/server" \; \
+     new-window -n "Monitor" "htop" \; \
+     select-window -t :0 \; \
+     attach-session -t "my-project"
+```
+
 ## Replacements ##
 
 Some commands can have expansions in them.  These commands include:
@@ -121,3 +131,7 @@ fi
 ```
 set-environment -g 'SSH_AUTH_SOCK' ~/.ssh/ssh_auth_sock
 ```
+
+## iTerm2 Integration ##
+
+Each window can be a tab: https://gitlab.com/gnachman/iterm2/-/wikis/tmux-Integration-Best-Practices
